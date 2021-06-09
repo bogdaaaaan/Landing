@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+#root,
+.listPage,
+#alertMessageText
+{
+    display: flex;
+    justify-content: center;
+}
+
+#root {
+    padding-top: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.listPage {
+    align-items: center;
+    flex-direction: column;
+}
+
+.listPage h1{
+    padding-bottom: 25px;
+}
+
+.listPage ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.listPage ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    width: 450px;
+}
+
+.tweet {
+    cursor: pointer;
+}
+
+.tweet_content {
+    width: 100%;
+}
+
+.tweet_text {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    word-break: break-word;
+}
+
+.tweet_btn {
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.tweet_buttons {
+    width: 100%;
+}
+
+#alertMessage {
+    width: 300px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.699);
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#alertMessageText {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#modifyItem {
+    text-align: center;
+}
+
+#modifyItemInput {
+    width: 300px;
+    height: 80px;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.formButtons button,
+.btn 
+{
+    padding: 15px 25px;
+    font-size: 1em;
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
