@@ -1,2 +1,2 @@
 # Landing
-Most of my landing pages listed here
+Some of my landing pages listed here
