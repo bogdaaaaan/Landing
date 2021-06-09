@@ -1,0 +1,66 @@
+.btn-orange {
+    background-color: #DDB528;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.phone-btn {
+    font-size: 1.5em;
+}
+
+.img-bg {
+    width: 100%;
+}
+
+.content-text {
+    bottom: 15px;
+    left: 0%;
+    width: 100%;
+    font-size: 2em;
+    background-color: rgb(39, 40, 48);
+}
+
+.form-description {
+    font-size: 0.5em;
+    color: rgb(192, 192, 192);
+}
+
+.form-policy {
+    color: rgb(192, 192, 192);
+    text-decoration: underline;
+}
+
+.list-item-heading {
+    font-size: 1.5em;
+}
+
+.list-item-description {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.reviews {
+    background-color: #393641;
+}
+
+.banner, .footer {
+    background-color: #201F25;
+}
+
+@media screen and (max-width: 998px) {
+    .list-item-heading {
+        font-size: 1.1em;
+    }
+
+    .list-item-description {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-text {
+        font-size: 1em;
+    }
+}
